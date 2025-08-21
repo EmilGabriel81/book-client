@@ -1,8 +1,11 @@
 package com.client.book_client.exception.dto;
 
 
+import lombok.Getter;
+
 import java.time.LocalDateTime;
 
+@Getter
 public class ErrorResponse {
     private LocalDateTime timestamp;
     private int status;
@@ -16,27 +19,5 @@ public class ErrorResponse {
         this.error = error;
         this.message = message;
         this.path = path;
-    }
-
-    // getters
-
-    public LocalDateTime getTimestamp() {
-        return timestamp;
-    }
-
-    public int getStatus() {
-        return status;
-    }
-
-    public String getError() {
-        return error;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public String getPath() {
-        return path;
     }
 }
