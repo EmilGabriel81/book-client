@@ -1,7 +1,7 @@
 package com.client.book_client.controller;
 
 import com.client.book_client.service.ExternalBookService;
-import com.client.book_client.model.BookDTO;
+import org.common.dto.BookDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

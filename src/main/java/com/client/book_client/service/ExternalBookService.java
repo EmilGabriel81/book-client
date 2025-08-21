@@ -1,6 +1,6 @@
 package com.client.book_client.service;
 
-import com.client.book_client.model.BookDTO;
+import org.common.dto.BookDTO;
 import com.client.book_client.client.BookFeignClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Async;
